@@ -1,0 +1,567 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: white;
+}
+
+header{
+  /* margin: 10px 10px; */
+}
+
+nav ul {
+  display: flex;
+  padding: 30px 30px;
+  align-items: center;
+}
+
+ul img{
+  padding-left: 50px;
+}
+
+nav ul .my-links{
+  display: flex;
+  padding-left: 150px;
+}
+
+nav ul li{
+  /* margin-left: 30px; */
+  font-size: 10px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul .scissor {
+  padding-right: 100px;
+  font-size: large;
+  color: blue;
+}
+
+nav ul .log {
+  padding-left: 30px;
+  padding-right: 6px;
+  color: blue;
+}
+
+nav ul .free {
+  border: 1px solid blue;
+  border-radius: 15px;
+  padding: 6px 10px;
+  background-color: rgb(32, 113, 200);
+  color: white;
+  margin-right: 40px;
+}
+
+nav ul .url {
+  padding: 20px;
+}
+
+nav ul .feature {
+  padding: 20px;
+}
+
+nav ul .analytics {
+  padding: 20px;
+}
+
+nav ul .faq {
+  padding: 20px;
+}
+
+nav ul .price {
+  padding: 20px;
+}
+
+ul li {
+  padding: 0px;
+  list-style: none;
+  font-size: small;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+ul li a:hover {
+  color: blue;
+}
+
+.hero-section .section-one{
+  text-align: center;
+}
+
+.hero-section .section-one span{
+  color: blue;
+}
+
+/* .hero-section .section-one span::after{
+  content: '';
+  width: 50px;
+  background-color: blue;
+  bottom: -20px;
+  position: absolute;
+  z-index: -1;
+  border-bottom-left-radius: 3px 4px;
+} */
+
+.hero-section div h1{
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-top: 40px;
+}
+
+.hero-section .section-one p{
+  padding-top: 20px;
+}
+
+.hero-section .sign{
+  padding-top: 30px;
+  display: flex;
+  padding-left: 550px;
+  align-items: center;
+} 
+
+.sign button{
+  border-radius: 20px;
+  border: 1px solid blue;
+  padding: 6px 18px;
+  color: white;
+  background-color: rgb(32, 113, 200);
+  cursor: pointer;
+}
+
+.sign p{
+  color: blue;
+  padding-left: 20px;
+  padding-bottom: 15px;
+  text-decoration: none;
+}
+
+.img .src{
+  padding-bottom: 30px;
+  background: url("figma-html/asset/Vector 2.png");
+  background-repeat: no-repeat;
+  background-position: 300px;
+}
+
+.img .img-two{
+  padding-bottom: 0;
+}
+
+.section-two{
+  margin: 10px 0;
+  margin-left: 70px;
+  display: flex;
+}
+
+.section-two h2{
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-bottom: 10px;
+}
+
+.section-two h2 span{
+  color: blue;
+}
+
+.section-two .lists{
+  padding-top: 50px;
+  display: flex;
+  padding-left: 60px;
+}
+
+.section-two .short h3{
+  padding-bottom: 10px;
+  font-size: 18px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.short .head-one h3{
+  padding-top: 20px;
+}
+
+.section-two .short p{
+  padding-bottom: 10px;
+}
+
+.section-two .data{
+  padding-left: 40px;
+}
+
+.section-two .data h3{
+  padding-bottom: 10px;
+  font-size: 18px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.data .head-two h3{
+  padding-top: 20px;
+}
+
+.section-two .data p{
+  padding-bottom: 10px;
+}
+
+.section-three .perfect{
+  text-align: center;
+  padding-top: 50px;
+}
+
+.section-three h2 span{
+  color: blue;
+}
+
+.section-three h2{
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.section-three .frame{
+padding-left: 200px;
+padding-top: 70px;
+display: flex;
+}
+
+.section-three .frame-one{
+  border: 1px solid rgb(172, 205, 238);
+  width: 200px;
+  border-radius: 7px;
+  padding: 35px 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  height: 200px;
+  border-right: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.frame .frame-one h6{
+  font-size: 13px;
+  font-weight: lighter;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 41px;
+}
+
+.frame .frame-one h4{
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-left: 41px;
+  padding-top: 15px;
+}
+
+.frame .frame-one p{
+  padding-left: 41px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 13px;
+  font-weight: bold;
+}
+.frame .frame-two {
+  border: 1px solid blue;
+  width: 250px;
+  border-radius: 7px;
+  background-color: rgb(2, 17, 33);
+  color: white;
+  /* height: 400px; */
+}
+
+.frame .frame-two h4{
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-left: 41px;
+  padding-top: 15px;
+}
+
+.frame .frame-two h6{
+  font-size: 13px;
+  font-weight: lighter;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 41px;
+}
+
+.frame .frame-two p{
+  padding-left: 41px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 13px;
+  font-weight: bold;
+}
+.frame .frame-three{
+  border: 1px solid rgb(172, 205, 238);
+  width: 200px;
+  border-radius: 7px;
+  padding: 35px 20px;
+  margin-top: 40px;
+  height: 200px;
+  border-left: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.frame .frame-three h4{
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-left: 41px;
+  padding-top: 15px;
+}
+
+.frame .frame-three h6{
+  font-size: 13px;
+  font-weight: lighter;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 41px;
+}
+
+.frame .frame-three p{
+  padding-left: 41px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.section-three .buttons{
+  display: flex;
+  padding-left: 400px;
+  padding-top: 50px;
+}
+
+.buttons .custom{
+  border: 1px solid rgb(23, 75, 188);
+  border-radius: 20px;
+  padding: 7px 15px;
+  margin-right: 15px;
+  color: rgb(23, 75, 188);
+  cursor: pointer;
+}
+
+.buttons .select{
+  border: 1px solid blue;
+  border-radius: 20px;
+  padding: 7px 20px;
+  background-color: rgb(23, 75, 188);
+  color: white;
+  cursor: pointer;
+}
+
+.mid-section{
+  background: url("figma-html/asset/Rectangle 1.png");
+  padding-bottom: 40px;
+}
+
+.mid-section .form{
+  text-align: center;
+  padding-left: 400px;
+  padding-top: 40px;
+}
+
+.mid-section form{
+  border: 2px solid white;
+  width: 250px;
+  height: 150px;
+  padding: 40px 0px;
+  border-radius: 10px;
+  padding-right: 80px;
+  padding-left: 40px;
+  background-color: white;
+}
+
+.form input{
+  padding: 7px 60px;
+  border-radius: 5px;
+  border: 1px solid rgb(159, 200, 242);
+  color: rgb(23, 75, 188);
+  margin-bottom: 15px;
+  margin-left: 20px;
+  font-size: 10px;
+}
+
+::placeholder{
+  color: rgb(23, 75, 188);
+}
+
+.form .domain{
+  display: flex;
+}
+
+.form select{
+  padding: 7px 10px;
+  border: 1px solid rgb(159, 200, 242);
+  border-radius: 10px;
+  color: blue;
+  margin-bottom: 13px;
+  margin-left: 20px;
+}
+
+.form .domain input{
+  padding: 10px 1px;
+  margin-left: 7px;
+  border-radius: 10px;
+}
+
+.form button{
+  padding: 7px 60px;
+  border: 1px solid blue;
+  border-radius: 10px;
+  background-color: rgb(34, 34, 255);
+  color: white;
+  width: 250px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.form p{
+  color: blue;
+  padding-top: 10px;
+  margin-left: 20px;
+}
+
+.form p span{
+  font-weight: bolder;
+}
+
+.faqs{
+  padding-left: 250px;
+  padding-top: 30px;
+  background-color: white;
+}
+
+.faqs .texts h2{
+  padding-left: 300px;
+  font-size: 23px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 30px;
+}
+
+.faqs .texts h4{
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.faqs .texts h4 .h-one{
+  padding-left: 410px;
+}
+
+.faqs .texts p{
+  padding-top: 20px;
+  border-bottom: 1.5px solid rgb(193, 191, 191);
+  padding-bottom: 15px;
+  width: 600px;
+}
+
+.faqs .texts p span{
+  padding-left: 40px;
+}
+
+.faqs .texts p .icon{
+  padding-left: 90px;
+  font-weight: 0.5px;
+}
+
+.faqs .texts p .plus{
+  padding-left: 242px;
+}
+
+.faqs .texts p #fa{
+  padding-left: 330px;
+}
+
+.faqs .texts p .ion{
+  padding-left: 280px;
+}
+
+.faqs .texts p .spn{
+  padding-left: 256px;
+}
+
+.faqs .texts p .ur{
+  padding-left: 330px;
+}
+
+.faqs .texts p .qr{
+  padding-left: 395px;
+}
+
+.faqs .texts p .api{
+  padding-left: 70px;
+}
+
+
+footer .optimize h2{
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 300px;
+  padding-bottom: 30px;
+}
+
+footer .optimize button{
+  color: white;
+  margin-left: 410px;
+  background-color: rgb(34, 34, 255);
+  border: 1px solid blue;
+  border-radius: 15px;
+  width: 120px;
+  padding: 7px 0;
+  cursor: pointer;
+}
+
+footer .footer{
+  display: flex;
+}
+
+.footer .logo{
+  padding-left: 50px;
+  padding-top: 60px;
+}
+
+.footer .logo h3{
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 20px;
+}
+
+.footer .logo p{
+  font-size: 15px;
+}
+ 
+.logo p i{
+  padding-right: 7px;
+}  
+
+.logo img{
+  padding-left: 50px;
+}
+
+.footer .about{
+  display: flex;
+  padding-left: 50px;
+  padding-top: 60px;
+}
+
+.footer .about h4{
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 10px;
+}
+
+.footer .about h5{
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 40px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+.second h5{
+  padding-top: 20px;
+}
+
+.footer .about p{
+  padding-right: 100px;
+}
